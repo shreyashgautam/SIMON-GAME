@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: #fffff2;
+}
+h1:hover{
+    color:rgb(255, 172, 172);
+}
+h1{
+    transition: 1s;
+}
+h2{
+    transition: 1s;
+}
+h3{
+    transition: 1s;
+}
+h2:hover{
+    color:rgb(255, 172, 172);
+}
+h3:hover{
+    color:rgb(255, 172, 172);
+}
+
+.container{ 
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:10vmin;
+}
+.box{
+    height: 25vmin;
+    width: 25vmin;
+    background-color: #c0c0c0;
+    color:#3a6ea5;
+    border-radius: 10px;
+    font-size: 8vmin;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px white;
+    transition: 1s;
+}
+.color1{
+    background-color: pink;
+}
+.color2{
+    background-color: rgb(139, 240, 139);
+}
+.color3{
+    background-color: rgb(255, 215, 86);
+}
+.color4{
+    background-color: rgb(167, 184, 246);
+}
+.flash{
+    background-color: white;
+}
+.blink{
+    background-color: red;
+}
